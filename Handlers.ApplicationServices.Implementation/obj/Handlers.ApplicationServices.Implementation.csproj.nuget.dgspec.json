@@ -1,0 +1,338 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.ApplicationServices.Implementation\\Handlers.ApplicationServices.Implementation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.ApplicationServices.Implementation\\Handlers.ApplicationServices.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.ApplicationServices.Implementation\\Handlers.ApplicationServices.Implementation.csproj",
+        "projectName": "Handlers.ApplicationServices.Implementation",
+        "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.ApplicationServices.Implementation\\Handlers.ApplicationServices.Implementation.csproj",
+        "packagesPath": "C:\\Users\\User2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.ApplicationServices.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj": {
+                "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj"
+              },
+              "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.UseCases\\Handlers.UseCases.csproj": {
+                "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.UseCases\\Handlers.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.CqrsFramework\\Handlers.CqrsFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.CqrsFramework\\Handlers.CqrsFramework.csproj",
+        "projectName": "Handlers.CqrsFramework",
+        "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.CqrsFramework\\Handlers.CqrsFramework.csproj",
+        "packagesPath": "C:\\Users\\User2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.CqrsFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj",
+        "projectName": "Handlers.Entities",
+        "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj",
+        "packagesPath": "C:\\Users\\User2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Infrastructure.Interfaces\\Handlers.Infrastructure.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Infrastructure.Interfaces\\Handlers.Infrastructure.Interfaces.csproj",
+        "projectName": "Handlers.Infrastructure.Interfaces",
+        "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Infrastructure.Interfaces\\Handlers.Infrastructure.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\User2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Infrastructure.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj": {
+                "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.UseCases\\Handlers.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.UseCases\\Handlers.UseCases.csproj",
+        "projectName": "Handlers.UseCases",
+        "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.UseCases\\Handlers.UseCases.csproj",
+        "packagesPath": "C:\\Users\\User2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.CqrsFramework\\Handlers.CqrsFramework.csproj": {
+                "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.CqrsFramework\\Handlers.CqrsFramework.csproj"
+              },
+              "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Infrastructure.Interfaces\\Handlers.Infrastructure.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Infrastructure.Interfaces\\Handlers.Infrastructure.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

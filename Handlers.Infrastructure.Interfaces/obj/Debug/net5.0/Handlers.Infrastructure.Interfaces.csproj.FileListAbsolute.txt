@@ -1,0 +1,15 @@
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\bin\Debug\net5.0\Handlers.Infrastructure.Interfaces.deps.json
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\bin\Debug\net5.0\Handlers.Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\bin\Debug\net5.0\ref\Handlers.Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\bin\Debug\net5.0\Handlers.Infrastructure.Interfaces.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\bin\Debug\net5.0\Handlers.Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\bin\Debug\net5.0\Handlers.Entities.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\Handlers.Infrastructure.Interfaces.csprojAssemblyReference.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\Handlers.Infrastructure.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\Handlers.Infrastructure.Interfaces.AssemblyInfoInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\Handlers.Infrastructure.Interfaces.AssemblyInfo.cs
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\Handlers.Infrastructure.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\Handlers.Infrastructure.Interfaces.csproj.CopyComplete
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\Handlers.Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\ref\Handlers.Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Infrastructure.Interfaces\obj\Debug\net5.0\Handlers.Infrastructure.Interfaces.pdb

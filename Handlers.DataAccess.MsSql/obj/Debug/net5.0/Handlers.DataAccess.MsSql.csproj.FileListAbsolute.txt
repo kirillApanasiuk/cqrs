@@ -1,0 +1,17 @@
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\bin\Debug\net5.0\Handlers.Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\bin\Debug\net5.0\Handlers.Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\Handlers.DataAccess.MsSql.csprojAssemblyReference.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\Handlers.DataAccess.MsSql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\Handlers.DataAccess.MsSql.AssemblyInfoInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\Handlers.DataAccess.MsSql.AssemblyInfo.cs
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\bin\Debug\net5.0\Handlers.DataAccess.MsSql.deps.json
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\bin\Debug\net5.0\Handlers.DataAccess.MsSql.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\bin\Debug\net5.0\ref\Handlers.DataAccess.MsSql.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\bin\Debug\net5.0\Handlers.DataAccess.MsSql.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\bin\Debug\net5.0\Handlers.Infrastructure.Interfaces.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\bin\Debug\net5.0\Handlers.Entities.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\Handlers.DataAccess.MsSql.csproj.CoreCompileInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\Handlers.DataAccess.MsSql.csproj.CopyComplete
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\Handlers.DataAccess.MsSql.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\ref\Handlers.DataAccess.MsSql.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.DataAccess.MsSql\obj\Debug\net5.0\Handlers.DataAccess.MsSql.pdb

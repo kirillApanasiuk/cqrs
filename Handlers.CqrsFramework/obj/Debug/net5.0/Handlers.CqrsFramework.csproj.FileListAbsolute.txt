@@ -1,0 +1,11 @@
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\bin\Debug\net5.0\Handlers.CqrsFramework.deps.json
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\bin\Debug\net5.0\Handlers.CqrsFramework.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\bin\Debug\net5.0\ref\Handlers.CqrsFramework.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\bin\Debug\net5.0\Handlers.CqrsFramework.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.AssemblyInfoInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.AssemblyInfo.cs
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.csproj.CoreCompileInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\ref\Handlers.CqrsFramework.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.pdb
