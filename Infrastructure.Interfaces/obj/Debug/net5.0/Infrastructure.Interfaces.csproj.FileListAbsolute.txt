@@ -1,0 +1,15 @@
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\bin\Debug\net5.0\Infrastructure.Interfaces.deps.json
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\bin\Debug\net5.0\Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\bin\Debug\net5.0\ref\Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\bin\Debug\net5.0\Infrastructure.Interfaces.pdb
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\bin\Debug\net5.0\Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\bin\Debug\net5.0\Entities.pdb
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\Infrastructure.Interfaces.csprojAssemblyReference.cache
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\Infrastructure.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\Infrastructure.Interfaces.AssemblyInfoInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\Infrastructure.Interfaces.AssemblyInfo.cs
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\Infrastructure.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\Infrastructure.Interfaces.csproj.CopyComplete
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\ref\Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Infrastructure.Interfaces\obj\Debug\net5.0\Infrastructure.Interfaces.pdb
