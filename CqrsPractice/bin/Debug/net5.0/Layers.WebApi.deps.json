@@ -1410,7 +1410,9 @@
       "ApplicationServices.Implementation/1.0.0": {
         "dependencies": {
           "ApplicationServices.Interfaces": "1.0.0",
-          "AutoMapper": "10.1.1"
+          "AutoMapper": "10.1.1",
+          "Entities": "1.0.0",
+          "Infrastructure.Interfaces": "1.0.0"
         },
         "runtime": {
           "ApplicationServices.Implementation.dll": {}

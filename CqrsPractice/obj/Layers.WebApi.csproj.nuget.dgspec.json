@@ -34,6 +34,12 @@
             "projectReferences": {
               "C:\\Users\\User2\\source\\repos\\CqrsPractice\\ApplicationServices.Interfaces\\ApplicationServices.Interfaces.csproj": {
                 "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\ApplicationServices.Interfaces\\ApplicationServices.Interfaces.csproj"
+              },
+              "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Infrastructure.Interfaces\\Infrastructure.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Infrastructure.Interfaces\\Infrastructure.Interfaces.csproj"
               }
             }
           }

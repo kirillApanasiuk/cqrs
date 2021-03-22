@@ -13,3 +13,7 @@ C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Implementation\obj\
 C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Implementation\obj\Debug\net5.0\ApplicationServices.Implementation.dll
 C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Implementation\obj\Debug\net5.0\ref\ApplicationServices.Implementation.dll
 C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Implementation\obj\Debug\net5.0\ApplicationServices.Implementation.pdb
+C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Implementation\bin\Debug\net5.0\Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Implementation\bin\Debug\net5.0\Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Implementation\bin\Debug\net5.0\Entities.pdb
+C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Implementation\bin\Debug\net5.0\Infrastructure.Interfaces.pdb
