@@ -2,15 +2,15 @@
 using Handlers.Entities;
 using Handlers.UseCases.Order.Dto;
 
-namespace Handlers.ApplicationServices.Implementation
+namespace Handlers.UseCases.Order.Utils
 {
     public class MapperProfile : Profile
     {
         public MapperProfile()
         {
-            CreateMap<Order, OrderDto>();
+            CreateMap<Entities.Order, OrderDto>();
             CreateMap<OrderItem, OrderItemDto>().ReverseMap();
-            CreateMap<ChangeOrderDto, Order>();
+            CreateMap<ChangeOrderDto, Entities.Order>();
         }
     }
 }
