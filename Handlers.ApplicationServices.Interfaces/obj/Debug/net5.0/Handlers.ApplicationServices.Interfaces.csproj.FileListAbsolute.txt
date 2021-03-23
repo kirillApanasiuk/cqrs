@@ -2,6 +2,7 @@ C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Interfaces
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Interfaces\bin\Debug\net5.0\Handlers.ApplicationServices.Interfaces.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Interfaces\bin\Debug\net5.0\ref\Handlers.ApplicationServices.Interfaces.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Interfaces\bin\Debug\net5.0\Handlers.ApplicationServices.Interfaces.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Interfaces\obj\Debug\net5.0\Handlers.ApplicationServices.Interfaces.csprojAssemblyReference.cache
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Interfaces\obj\Debug\net5.0\Handlers.ApplicationServices.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Interfaces\obj\Debug\net5.0\Handlers.ApplicationServices.Interfaces.AssemblyInfoInputs.cache
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Interfaces\obj\Debug\net5.0\Handlers.ApplicationServices.Interfaces.AssemblyInfo.cs

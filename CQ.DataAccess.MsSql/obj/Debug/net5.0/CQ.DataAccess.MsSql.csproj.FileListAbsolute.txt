@@ -1,0 +1,17 @@
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\bin\Debug\net5.0\CQ.DataAccess.MsSql.deps.json
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\bin\Debug\net5.0\CQ.DataAccess.MsSql.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\bin\Debug\net5.0\ref\CQ.DataAccess.MsSql.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\bin\Debug\net5.0\CQ.DataAccess.MsSql.pdb
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\bin\Debug\net5.0\CQ.Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\bin\Debug\net5.0\CQ.Infrastructure.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\bin\Debug\net5.0\CQ.Entities.pdb
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\bin\Debug\net5.0\CQ.Infrastructure.Interfaces.pdb
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\CQ.DataAccess.MsSql.csprojAssemblyReference.cache
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\CQ.DataAccess.MsSql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\CQ.DataAccess.MsSql.AssemblyInfoInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\CQ.DataAccess.MsSql.AssemblyInfo.cs
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\CQ.DataAccess.MsSql.csproj.CoreCompileInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\CQ.DataAccess.MsSql.csproj.CopyComplete
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\CQ.DataAccess.MsSql.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\ref\CQ.DataAccess.MsSql.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.DataAccess.MsSql\obj\Debug\net5.0\CQ.DataAccess.MsSql.pdb

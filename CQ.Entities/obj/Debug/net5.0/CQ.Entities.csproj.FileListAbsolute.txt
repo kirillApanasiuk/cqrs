@@ -1,0 +1,12 @@
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\bin\Debug\net5.0\CQ.Entities.deps.json
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\bin\Debug\net5.0\CQ.Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\bin\Debug\net5.0\ref\CQ.Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\bin\Debug\net5.0\CQ.Entities.pdb
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\obj\Debug\net5.0\CQ.Entities.csprojAssemblyReference.cache
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\obj\Debug\net5.0\CQ.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\obj\Debug\net5.0\CQ.Entities.AssemblyInfoInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\obj\Debug\net5.0\CQ.Entities.AssemblyInfo.cs
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\obj\Debug\net5.0\CQ.Entities.csproj.CoreCompileInputs.cache
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\obj\Debug\net5.0\CQ.Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\obj\Debug\net5.0\ref\CQ.Entities.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.Entities\obj\Debug\net5.0\CQ.Entities.pdb

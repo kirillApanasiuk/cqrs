@@ -10,7 +10,10 @@ using Handlers.UseCases.Order.Dto;
 using Handlers.UseCases.Order.Queries.GetOrderById;
 using Microsoft.EntityFrameworkCore;
 using Handlers.DataAccess.MsSql;
+using Handlers.UseCases.Order.Commands.CreateOrder;
+using Handlers.UseCases.Order.Commands.UpdateOrder;
 using Handlers.UseCases.Order.Utils;
+using Handlers.WebApi.Services;
 
 namespace Handlers.WebApi
 {
@@ -33,7 +36,10 @@ namespace Handlers.WebApi
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Handlers.WebApi", Version = "v1" });
             });
             services.AddAutoMapper(typeof(MapperProfile));
+            services.AddScoped<ICurrentUserService,UserService>();
             services.AddScoped<IRequestHandler<GetOrderByIdQuery, OrderDto>,GetOrderByIdHandler>();
+            services.AddScoped<IRequestHandler<CreateOrderCommand, int>, CreateOrderHandler>();
+            services.AddScoped<IRequestHandler<UpdateOrderCommand>, UpdateOrderCommandHandler>();
             services.AddDbContext<IDbContext, AppDbContext>(builder =>
                 builder.UseSqlServer(Configuration.GetConnectionString("Database")));
         }
