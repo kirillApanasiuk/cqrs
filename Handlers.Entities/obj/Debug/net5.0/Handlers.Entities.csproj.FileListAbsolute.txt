@@ -9,3 +9,4 @@ C:\Users\User2\source\repos\CqrsPractice\Handlers.Entities\obj\Debug\net5.0\Hand
 C:\Users\User2\source\repos\CqrsPractice\Handlers.Entities\obj\Debug\net5.0\Handlers.Entities.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.Entities\obj\Debug\net5.0\ref\Handlers.Entities.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.Entities\obj\Debug\net5.0\Handlers.Entities.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.Entities\obj\Debug\net5.0\Handlers.Entities.csprojAssemblyReference.cache

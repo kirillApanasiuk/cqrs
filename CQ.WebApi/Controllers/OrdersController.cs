@@ -1,11 +1,11 @@
 ﻿using CQ.CqrsFramework;
-using CQ.UseCases.Order.Queries.GetOrderById;
-using Microsoft.AspNetCore.Mvc;
-
-using System.Threading.Tasks;
 using CQ.UseCases.Order.Commands.CreateOrder;
 using CQ.UseCases.Order.Commands.UpdateOrder;
 using CQ.UseCases.Order.Dto;
+using CQ.UseCases.Order.Queries.GetLastOrderId;
+using CQ.UseCases.Order.Queries.GetOrderById;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 
 namespace Handlers.WebApi.Controllers
@@ -23,11 +23,17 @@ namespace Handlers.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task CreateAsync(
+        public async Task<int> CreateAsync(
             [FromBody] ChangeOrderDto dto,
-            [FromServices] ICommandHandler<CreateOrderCommand> handler)
+            [FromServices] ICommandHandler<CreateOrderCommand> commandHandler,
+            [FromServices] IQueryHandler<GetLastOrderIdQuery,int> queryHandler
+            )
         {
-            await handler.HandleAsync(new CreateOrderCommand {Dto = dto});
+            var command = new CreateOrderCommand {Dto = dto};
+            await commandHandler.HandleAsync(command);
+
+            var id = await queryHandler.HandleAsync(new GetLastOrderIdQuery());
+            return id;
         }
 
         [HttpPut("{id}")]

@@ -71,3 +71,9 @@ C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\obj\Debug\net5.0\ref\CQ.WebAp
 C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\obj\Debug\net5.0\CQ.WebApi.pdb
 C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\obj\Debug\net5.0\CQ.WebApi.genruntimeconfig.cache
 C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\obj\Debug\net5.0\CQ.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\bin\Debug\net5.0\Scrutor.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\bin\Debug\net5.0\CQ.ApplicationServices.Implementation.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\bin\Debug\net5.0\CQ.ApplicationServices.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\bin\Debug\net5.0\CQ.ApplicationServices.Implementation.pdb
+C:\Users\User2\source\repos\CqrsPractice\CQ.WebApi\bin\Debug\net5.0\CQ.ApplicationServices.Interfaces.pdb

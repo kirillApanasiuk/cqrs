@@ -17,3 +17,5 @@ C:\Users\User2\source\repos\CqrsPractice\CQ.UseCases\obj\Debug\net5.0\CQ.UseCase
 C:\Users\User2\source\repos\CqrsPractice\CQ.UseCases\obj\Debug\net5.0\CQ.UseCases.dll
 C:\Users\User2\source\repos\CqrsPractice\CQ.UseCases\obj\Debug\net5.0\ref\CQ.UseCases.dll
 C:\Users\User2\source\repos\CqrsPractice\CQ.UseCases\obj\Debug\net5.0\CQ.UseCases.pdb
+C:\Users\User2\source\repos\CqrsPractice\CQ.UseCases\bin\Debug\net5.0\CQ.ApplicationServices.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.UseCases\bin\Debug\net5.0\CQ.ApplicationServices.Interfaces.pdb

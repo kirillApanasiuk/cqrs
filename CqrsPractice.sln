@@ -37,21 +37,26 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationServices.Impleme
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandQueries", "CommandQueries", "{9E6CF953-A3CE-4BD3-8902-48F830C20AA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQ.ApplicationServices.Implementation", "CQ.ApplicationServices.Implementation\CQ.ApplicationServices.Implementation.csproj", "{281E13CF-8A3E-459B-B430-A8FF35C30871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQ.ApplicationServices.Implementation", "CQ.ApplicationServices.Implementation\CQ.ApplicationServices.Implementation.csproj", "{281E13CF-8A3E-459B-B430-A8FF35C30871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQ.ApplicationServices.Interfaces", "CQ.ApplicationServices.Interfaces\CQ.ApplicationServices.Interfaces.csproj", "{53231AEE-BEF3-443A-A9D1-FEDF5D3FE563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQ.ApplicationServices.Interfaces", "CQ.ApplicationServices.Interfaces\CQ.ApplicationServices.Interfaces.csproj", "{53231AEE-BEF3-443A-A9D1-FEDF5D3FE563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQ.CqrsFramework", "CQ.CqrsFramework\CQ.CqrsFramework.csproj", "{87149EE2-3500-490A-8027-DBEF6CD09829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQ.CqrsFramework", "CQ.CqrsFramework\CQ.CqrsFramework.csproj", "{87149EE2-3500-490A-8027-DBEF6CD09829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQ.DataAccess.MsSql", "CQ.DataAccess.MsSql\CQ.DataAccess.MsSql.csproj", "{DC303309-2EA5-44DA-AAD3-B7F5B92458E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQ.DataAccess.MsSql", "CQ.DataAccess.MsSql\CQ.DataAccess.MsSql.csproj", "{DC303309-2EA5-44DA-AAD3-B7F5B92458E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQ.Entities", "CQ.Entities\CQ.Entities.csproj", "{A6380D91-3FB7-4DE7-965C-47EE5E98D0C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQ.Entities", "CQ.Entities\CQ.Entities.csproj", "{A6380D91-3FB7-4DE7-965C-47EE5E98D0C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQ.Infrastructure.Interfaces", "CQ.Infrastructure.Interfaces\CQ.Infrastructure.Interfaces.csproj", "{57EFA6C6-AAAA-4481-887F-85CCACC92A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQ.Infrastructure.Interfaces", "CQ.Infrastructure.Interfaces\CQ.Infrastructure.Interfaces.csproj", "{57EFA6C6-AAAA-4481-887F-85CCACC92A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQ.UseCases", "CQ.UseCases\CQ.UseCases.csproj", "{747E42F4-F1FB-4B80-92B1-01405FC2E06F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQ.UseCases", "CQ.UseCases\CQ.UseCases.csproj", "{747E42F4-F1FB-4B80-92B1-01405FC2E06F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQ.WebApi", "CQ.WebApi\CQ.WebApi.csproj", "{1941BB06-8B59-48EB-AC03-CA976BCF74AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQ.WebApi", "CQ.WebApi\CQ.WebApi.csproj", "{1941BB06-8B59-48EB-AC03-CA976BCF74AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CF693D6-3F76-46BC-826D-B68BA506C9E1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

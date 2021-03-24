@@ -9,3 +9,4 @@ C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Interfaces\obj\Debu
 C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Interfaces\obj\Debug\net5.0\ApplicationServices.Interfaces.dll
 C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Interfaces\obj\Debug\net5.0\ref\ApplicationServices.Interfaces.dll
 C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Interfaces\obj\Debug\net5.0\ApplicationServices.Interfaces.pdb
+C:\Users\User2\source\repos\CqrsPractice\ApplicationServices.Interfaces\obj\Debug\net5.0\ApplicationServices.Interfaces.csprojAssemblyReference.cache

@@ -10,3 +10,6 @@ C:\Users\User2\source\repos\CqrsPractice\CQ.ApplicationServices.Implementation\o
 C:\Users\User2\source\repos\CqrsPractice\CQ.ApplicationServices.Implementation\obj\Debug\net5.0\CQ.ApplicationServices.Implementation.dll
 C:\Users\User2\source\repos\CqrsPractice\CQ.ApplicationServices.Implementation\obj\Debug\net5.0\ref\CQ.ApplicationServices.Implementation.dll
 C:\Users\User2\source\repos\CqrsPractice\CQ.ApplicationServices.Implementation\obj\Debug\net5.0\CQ.ApplicationServices.Implementation.pdb
+C:\Users\User2\source\repos\CqrsPractice\CQ.ApplicationServices.Implementation\bin\Debug\net5.0\CQ.ApplicationServices.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\CQ.ApplicationServices.Implementation\bin\Debug\net5.0\CQ.ApplicationServices.Interfaces.pdb
+C:\Users\User2\source\repos\CqrsPractice\CQ.ApplicationServices.Implementation\obj\Debug\net5.0\CQ.ApplicationServices.Implementation.csproj.CopyComplete

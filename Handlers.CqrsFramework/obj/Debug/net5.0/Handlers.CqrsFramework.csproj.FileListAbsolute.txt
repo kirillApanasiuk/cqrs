@@ -9,3 +9,4 @@ C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0
 C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\ref\Handlers.CqrsFramework.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.CqrsFramework\obj\Debug\net5.0\Handlers.CqrsFramework.csprojAssemblyReference.cache

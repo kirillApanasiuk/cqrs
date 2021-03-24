@@ -7,9 +7,4 @@ namespace CQ.CqrsFramework
     {
         Task<TResponse> HandleAsync(TRequest request);
     }
-
-    public interface ICommandHandler<TRequest>
-    {
-        Task HandleAsync(TRequest request);
-    }
 }

@@ -9,6 +9,7 @@
       "Handlers.ApplicationServices.Implementation/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "Handlers.ApplicationServices.Interfaces": "1.0.0",
           "Handlers.Entities": "1.0.0",
           "Handlers.UseCases": "1.0.0"
         },
@@ -154,6 +155,11 @@
         }
       },
       "System.Reflection.Emit/4.7.0": {},
+      "Handlers.ApplicationServices.Interfaces/1.0.0": {
+        "runtime": {
+          "Handlers.ApplicationServices.Interfaces.dll": {}
+        }
+      },
       "Handlers.CqrsFramework/1.0.0": {
         "runtime": {
           "Handlers.CqrsFramework.dll": {}
@@ -176,6 +182,7 @@
       "Handlers.UseCases/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "Handlers.ApplicationServices.Interfaces": "1.0.0",
           "Handlers.CqrsFramework": "1.0.0",
           "Handlers.Infrastructure.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.4"
@@ -310,6 +317,11 @@
       "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "path": "system.reflection.emit/4.7.0",
       "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "Handlers.ApplicationServices.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Handlers.CqrsFramework/1.0.0": {
       "type": "project",

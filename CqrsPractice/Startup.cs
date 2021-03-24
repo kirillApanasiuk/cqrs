@@ -12,7 +12,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ApplicationServices.Implementation;
+using ApplicationServices.Implementation.Order;
+using ApplicationServices.Implementation.Product;
 using ApplicationServices.Interfaces;
+using ApplicationServices.Interfaces.Common;
+using ApplicationServices.Interfaces.Order;
+using ApplicationServices.Interfaces.Product;
 using DataAccess.Mssql;
 using Infrastructure.Interfaces;
 using Layers.WebApi.Services;
@@ -40,8 +45,18 @@ namespace CqrsPractice
             });
 
             services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IReadOnlyOrderService, ReadOnlyOrderService>(); 
+
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IReadOnlyProductService, ReadOnlyProductService>();
+
             services.AddAutoMapper(typeof(MapperProfile));
+            services.AddScoped<IStatisticService, StatisticService>();
+
             services.AddDbContext<IDbContext, AppDbContext>(builder =>
+                builder.UseSqlServer(Configuration.GetConnectionString("Database")));
+
+            services.AddDbContext<IReadOnlyDbContext, ReadOnlyAppDbContext>(builder =>
                 builder.UseSqlServer(Configuration.GetConnectionString("Database")));
             services.AddScoped<ICurrentUserService, UserService>();
 

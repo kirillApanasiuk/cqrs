@@ -17,3 +17,5 @@ C:\Users\User2\source\repos\CqrsPractice\Handlers.UseCases\obj\Debug\net5.0\Hand
 C:\Users\User2\source\repos\CqrsPractice\Handlers.UseCases\obj\Debug\net5.0\Handlers.UseCases.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.UseCases\obj\Debug\net5.0\ref\Handlers.UseCases.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.UseCases\obj\Debug\net5.0\Handlers.UseCases.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.UseCases\bin\Debug\net5.0\Handlers.ApplicationServices.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.UseCases\bin\Debug\net5.0\Handlers.ApplicationServices.Interfaces.pdb

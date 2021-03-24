@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "CQ.ApplicationServices.Implementation/1.0.0": {
+        "dependencies": {
+          "CQ.ApplicationServices.Interfaces": "1.0.0"
+        },
         "runtime": {
           "CQ.ApplicationServices.Implementation.dll": {}
+        }
+      },
+      "CQ.ApplicationServices.Interfaces/1.0.0": {
+        "runtime": {
+          "CQ.ApplicationServices.Interfaces.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CQ.ApplicationServices.Implementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CQ.ApplicationServices.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,3 +1,5 @@
+using Handlers.ApplicationServices.Implementation;
+using Handlers.ApplicationServices.Interfaces;
 using Handlers.CqrsFramework;
 using Handlers.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Builder;
@@ -37,10 +39,22 @@ namespace Handlers.WebApi
             });
             services.AddAutoMapper(typeof(MapperProfile));
             services.AddScoped<ICurrentUserService,UserService>();
-            services.AddScoped<IRequestHandler<GetOrderByIdQuery, OrderDto>,GetOrderByIdHandler>();
-            services.AddScoped<IRequestHandler<CreateOrderCommand, int>, CreateOrderHandler>();
-            services.AddScoped<IRequestHandler<UpdateOrderCommand>, UpdateOrderCommandHandler>();
+            services.AddScoped<IStatisticService,StatisticService>();
+
+            services.Scan(selector => selector.FromAssemblyOf<GetOrderByIdQuery>()
+                .AddClasses(classes=>classes.AssignableTo(typeof(IRequestHandler<,>)))
+                .AsImplementedInterfaces()
+                .WithScopedLifetime()
+            );
+            //services.AddScoped<IRequestHandler<GetOrderByIdQuery, OrderDto>,GetOrderByIdHandler>();
+            //services.AddScoped<IRequestHandler<CreateOrderCommand, int>, CreateOrderHandler>();
+            //services.AddScoped<IRequestHandler<UpdateOrderCommand>, UpdateOrderCommandHandler>();
+
+
+
             services.AddDbContext<IDbContext, AppDbContext>(builder =>
+                builder.UseSqlServer(Configuration.GetConnectionString("Database")));
+            services.AddDbContext<IReadOnlyDbContext, ReadOnlyAppDbContext>(builder =>
                 builder.UseSqlServer(Configuration.GetConnectionString("Database")));
         }
 

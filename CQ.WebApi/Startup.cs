@@ -1,21 +1,15 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using CQ.ApplicationServices.Implementation;
+using CQ.ApplicationServices.Interfaces;
 using CQ.CqrsFramework;
+using CQ.DataAccess.MsSql;
 using CQ.Infrastructure.Interfaces;
 using CQ.UseCases.Order.Commands.CreateOrder;
-using CQ.UseCases.Order.Commands.UpdateOrder;
-using CQ.UseCases.Order.Dto;
 using CQ.UseCases.Order.Queries.GetOrderById;
 using CQ.UseCases.Order.Utils;
 using CQ.WebApi.Services;
@@ -38,18 +32,26 @@ namespace CQ.WebApi
         {
 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CQ.WebApi", Version = "v1" });
-            });
+            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "CQ.WebApi", Version = "v1"}); });
             services.AddAutoMapper(typeof(MapperProfile));
             services.AddScoped<ICurrentUserService, UserService>();
+            services.AddScoped<IStatisticService, StatisticService>();
 
-            services.AddScoped<IQueryHandler<GetOrderByIdQuery, OrderDto>, GetOrderByIdHandler>();
-            services.AddScoped<ICommandHandler<CreateOrderCommand>, CreateOrderHandler>();
-            services.AddScoped<ICommandHandler<UpdateOrderCommand>, UpdateOrderCommandHandler>();
+            services.Scan(selector => selector.FromAssemblyOf<GetOrderByIdQuery>()
+                .AddClasses(classes => classes.AssignableTo(typeof(IQueryHandler<,>)))
+                .AsImplementedInterfaces()
+                .WithScopedLifetime()
+            );
+            services.Scan(selector => selector.FromAssemblyOf<CreateOrderCommand>()
+                .AddClasses(classes => classes.AssignableTo(typeof(ICommandHandler<>)))
+                .AsImplementedInterfaces()
+                .WithScopedLifetime()
+            );
 
-            services.AddDbContext<IDbContext,AppDbContext>(builder =>
+            services.AddDbContext<IDbContext, AppDbContext>(builder =>
+                builder.UseSqlServer(Configuration.GetConnectionString("Database")));
+
+            services.AddDbContext<IReadOnlyDbContext, ReadOnlyAppDbContext>(builder =>
                 builder.UseSqlServer(Configuration.GetConnectionString("Database")));
         }
 
@@ -69,10 +71,7 @@ namespace CQ.WebApi
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 }

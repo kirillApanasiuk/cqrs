@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CQ.ApplicationServices.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CQ.ApplicationServices.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CQ.ApplicationServices.Interfaces.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CQ.ApplicationServices.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../CQ.ApplicationServices.Interfaces/CQ.ApplicationServices.Interfaces.csproj",
+      "msbuildProject": "../CQ.ApplicationServices.Interfaces/CQ.ApplicationServices.Interfaces.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CQ.ApplicationServices.Interfaces >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User2\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User2\\source\\repos\\CqrsPractice\\CQ.ApplicationServices.Interfaces\\CQ.ApplicationServices.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\CQ.ApplicationServices.Interfaces\\CQ.ApplicationServices.Interfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

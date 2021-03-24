@@ -192,6 +192,16 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "Handlers.ApplicationServices.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Handlers.ApplicationServices.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Handlers.ApplicationServices.Interfaces.dll": {}
+        }
+      },
       "Handlers.CqrsFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -231,6 +241,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "Handlers.ApplicationServices.Interfaces": "1.0.0",
           "Handlers.CqrsFramework": "1.0.0",
           "Handlers.Infrastructure.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.4"
@@ -740,6 +751,11 @@
         "version.txt"
       ]
     },
+    "Handlers.ApplicationServices.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Handlers.ApplicationServices.Interfaces/Handlers.ApplicationServices.Interfaces.csproj",
+      "msbuildProject": "../Handlers.ApplicationServices.Interfaces/Handlers.ApplicationServices.Interfaces.csproj"
+    },
     "Handlers.CqrsFramework/1.0.0": {
       "type": "project",
       "path": "../Handlers.CqrsFramework/Handlers.CqrsFramework.csproj",
@@ -764,6 +780,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.1.1",
+      "Handlers.ApplicationServices.Interfaces >= 1.0.0",
       "Handlers.Entities >= 1.0.0",
       "Handlers.UseCases >= 1.0.0"
     ]
@@ -800,6 +817,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.ApplicationServices.Interfaces\\Handlers.ApplicationServices.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.ApplicationServices.Interfaces\\Handlers.ApplicationServices.Interfaces.csproj"
+            },
             "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj": {
               "projectPath": "C:\\Users\\User2\\source\\repos\\CqrsPractice\\Handlers.Entities\\Handlers.Entities.csproj"
             },

@@ -73,3 +73,7 @@ C:\Users\User2\source\repos\CqrsPractice\Handlers.WebApi\obj\Debug\net5.0\Handle
 C:\Users\User2\source\repos\CqrsPractice\Handlers.WebApi\obj\Debug\net5.0\ref\Handlers.WebApi.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.WebApi\obj\Debug\net5.0\Handlers.WebApi.pdb
 C:\Users\User2\source\repos\CqrsPractice\Handlers.WebApi\obj\Debug\net5.0\Handlers.WebApi.genruntimeconfig.cache
+C:\Users\User2\source\repos\CqrsPractice\Handlers.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.WebApi\bin\Debug\net5.0\Scrutor.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.WebApi\bin\Debug\net5.0\Handlers.ApplicationServices.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.WebApi\bin\Debug\net5.0\Handlers.ApplicationServices.Interfaces.pdb

@@ -19,3 +19,5 @@ C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Implementa
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Implementation\obj\Debug\net5.0\Handlers.ApplicationServices.Implementation.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Implementation\obj\Debug\net5.0\ref\Handlers.ApplicationServices.Implementation.dll
 C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Implementation\obj\Debug\net5.0\Handlers.ApplicationServices.Implementation.pdb
+C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Implementation\bin\Debug\net5.0\Handlers.ApplicationServices.Interfaces.dll
+C:\Users\User2\source\repos\CqrsPractice\Handlers.ApplicationServices.Implementation\bin\Debug\net5.0\Handlers.ApplicationServices.Interfaces.pdb

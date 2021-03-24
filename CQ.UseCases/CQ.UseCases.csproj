@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CQ.ApplicationServices.Interfaces\CQ.ApplicationServices.Interfaces.csproj" />
     <ProjectReference Include="..\CQ.CqrsFramework\CQ.CqrsFramework.csproj" />
     <ProjectReference Include="..\CQ.Infrastructure.Interfaces\CQ.Infrastructure.Interfaces.csproj" />
   </ItemGroup>
