@@ -38,5 +38,11 @@ namespace Layers.WebApi.Controllers
             await _productService.UpdateEntityAsync(id, dto);
         }
 
+        [HttpDelete("{id}")]
+        public async Task DeleteAsync(int id)
+        {
+            await _productService.DeleteEntityAsync(id);
+        }
+
     }
 }

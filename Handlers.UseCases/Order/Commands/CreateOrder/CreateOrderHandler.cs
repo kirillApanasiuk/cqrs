@@ -1,41 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Handlers.ApplicationServices.Interfaces;
-using Handlers.CqrsFramework;
 using Handlers.Infrastructure.Interfaces;
+using Handlers.UseCases.Common.Commands.CreateEntity;
+using Handlers.UseCases.Order.Dto;
 
 namespace Handlers.UseCases.Order.Commands.CreateOrder
 {
-   public  class CreateOrderHandler : IRequestHandler<CreateOrderCommand, int>
+   public  class CreateOrderCommandHandler : CreateEntityCommandHandler<CreateOrderCommand,Entities.Order,ChangeOrderDto>
     {
-        private readonly IDbContext _dbContext;
-        private readonly IMapper _mapper;
         private readonly ICurrentUserService _userService;
         private readonly IStatisticService _statisticService;
 
 
-        public CreateOrderHandler(
+        public CreateOrderCommandHandler(
             IDbContext dbContext,
             IMapper mapper,
             ICurrentUserService userService,
-            IStatisticService statisticService )
+            IStatisticService statisticService ):base(dbContext,mapper)
         {
-            _dbContext = dbContext;
-            _mapper = mapper;
             _userService = userService;
             _statisticService = statisticService;
         }
-        public async Task<int> HandleAsync(CreateOrderCommand request)
+        public override async Task<int> HandleAsync(CreateOrderCommand request)
         {
             await _statisticService.WriteStatisticAsync("Order", request.Dto.Items.Select(i => i.ProductId));
-            var order = _mapper.Map<Entities.Order>(request.Dto);
+            return await base.HandleAsync(request);
+        }
+
+        protected override void InitializeNewEntity(Entities.Order order)
+        {
             order.UserEmail = _userService.Email;
-            await _dbContext.SaveChangesAsync();
-            return order.Id;
         }
     }
 }

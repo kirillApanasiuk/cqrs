@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Handlers.UseCases.Common.Commands.CreateEntity;
 using Handlers.UseCases.Order.Dto;
 
 namespace Handlers.UseCases.Order.Commands.CreateOrder
 {
-    public class CreateOrderCommand
+    public class CreateOrderCommand: CreateEntityCommand<ChangeOrderDto>
     {
-        public ChangeOrderDto Dto { get; set; }
     }
 }

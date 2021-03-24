@@ -6,5 +6,6 @@ namespace ApplicationServices.Interfaces.Common
     {
         Task<int> CreateEntityAsync(TDto dto);
         Task UpdateEntityAsync(int id,TDto dto);
+        Task DeleteEntityAsync(int id);
     }
 }

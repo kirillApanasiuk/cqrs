@@ -1,10 +1,10 @@
-﻿using Handlers.UseCases.Order.Dto;
+﻿using Handlers.UseCases.Common.Commands.UpdateEntity;
+using Handlers.UseCases.Order.Dto;
 
 namespace Handlers.UseCases.Order.Commands.UpdateOrder
 {
-    public class UpdateOrderCommand
+    public class UpdateOrderCommand:UpdateEntityCommand<ChangeOrderDto>
     {
-        public int Id { get; set; }
-        public ChangeOrderDto Dto { get; set; }
+      
     }
 }

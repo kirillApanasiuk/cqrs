@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using ApplicationServices.Implementation.Common;
 using ApplicationServices.Interfaces;
@@ -45,6 +46,11 @@ namespace ApplicationServices.Implementation.Order
                 .Include(x => x.Items)
                 .SingleAsync(x => x.Id == id);
             return order;
+        }
+
+        public override Task DeleteEntityAsync(int id)
+        {
+            throw new NotSupportedException();
         }
     }
 }

@@ -15,6 +15,7 @@ using Handlers.DataAccess.MsSql;
 using Handlers.UseCases.Order.Commands.CreateOrder;
 using Handlers.UseCases.Order.Commands.UpdateOrder;
 using Handlers.UseCases.Order.Utils;
+using Handlers.UseCases.Product.Utils;
 using Handlers.WebApi.Services;
 
 namespace Handlers.WebApi
@@ -38,6 +39,7 @@ namespace Handlers.WebApi
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Handlers.WebApi", Version = "v1" });
             });
             services.AddAutoMapper(typeof(MapperProfile));
+            services.AddAutoMapper(typeof(ProductMapperProfile));
             services.AddScoped<ICurrentUserService,UserService>();
             services.AddScoped<IStatisticService,StatisticService>();
 

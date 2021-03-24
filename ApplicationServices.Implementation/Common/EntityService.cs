@@ -3,11 +3,10 @@ using ApplicationServices.Interfaces.Common;
 using AutoMapper;
 using Entities;
 using Infrastructure.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace ApplicationServices.Implementation.Common
 {
-    public abstract class EntityService<TEntity,TDto> : IEntityService<TDto>  where  TEntity:Entity
+    public abstract class EntityService<TEntity,TDto> : IEntityService<TDto>  where  TEntity:Entity,new()
     {
         private readonly IDbContext _dbContext;
         private readonly  IMapper _mapper;
@@ -37,6 +36,12 @@ namespace ApplicationServices.Implementation.Common
             var entity = await GetTrackedEntity(id);
             _mapper.Map(dto,entity);
             await _dbContext.SaveChangesAsync();
+        }
+
+        public virtual async Task DeleteEntityAsync(int id)
+        {
+             _dbContext.Set<TEntity>().Remove(new TEntity {Id = id});
+             await _dbContext.SaveChangesAsync();
         }
 
         protected virtual async Task<Entity> GetTrackedEntity(int id)
