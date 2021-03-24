@@ -14,8 +14,4 @@
     <ProjectReference Include="..\CQ.Infrastructure.Interfaces\CQ.Infrastructure.Interfaces.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Common\DeleteEntity\" />
-  </ItemGroup>
-
 </Project>
