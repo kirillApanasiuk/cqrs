@@ -1,5 +1,6 @@
 ﻿using Handlers.Infrastructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Handlers.DataAccess.MsSql
 {
@@ -9,6 +10,10 @@ namespace Handlers.DataAccess.MsSql
         {
             ChangeTracker.AutoDetectChangesEnabled = true;
         }
-      
+
+        public IDbContextTransaction BeginTransaction()
+        {
+            return Database.BeginTransaction();
+        }
     }
 }

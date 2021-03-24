@@ -9,5 +9,6 @@ namespace ApplicationServices.Interfaces.Product
 {
     public interface IProductService:IEntityService<ChangeProductDto>
     {
+        Task DeleteAllAsync(DeleteAllDto dto);
     }
 }

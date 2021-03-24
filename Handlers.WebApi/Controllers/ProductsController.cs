@@ -6,6 +6,7 @@ using Handlers.UseCases.Order.Commands.UpdateOrder;
 using Handlers.UseCases.Order.Dto;
 using Handlers.UseCases.Order.Queries.GetOrderById;
 using Handlers.UseCases.Product.Commands.CreateProduct;
+using Handlers.UseCases.Product.Commands.DeleteAllProducts;
 using Handlers.UseCases.Product.Commands.DeleteProduct;
 using Handlers.UseCases.Product.Commands.UpdateProduct;
 using Handlers.UseCases.Product.Dto;
@@ -55,6 +56,12 @@ namespace Handlers.WebApi.Controllers
         public  Task DeleteAsync(int id,[FromServices] IRequestHandler<DeleteProductCommand> handler)
         {
             return  handler.HandleAsync(new DeleteProductCommand {Id = id});
+        }
+
+        [HttpDelete]
+        public Task DeleteAllAsync(DeleteAllDto dto, [FromServices] IRequestHandler<DeleteAllProductsCommand> handler)
+        {
+            return handler.HandleAsync(new DeleteAllProductsCommand {Dto = dto});
         }
     }
 }

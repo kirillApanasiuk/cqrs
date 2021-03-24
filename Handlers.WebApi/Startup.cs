@@ -43,6 +43,8 @@ namespace Handlers.WebApi
             services.AddScoped<ICurrentUserService,UserService>();
             services.AddScoped<IStatisticService,StatisticService>();
 
+            services.AddScoped<IHandlerDispatcher, HandlerDispathcer>();
+
             services.Scan(selector => selector.FromAssemblyOf<GetOrderByIdQuery>()
                 .AddClasses(classes=>classes.AssignableTo(typeof(IRequestHandler<,>)))
                 .AsImplementedInterfaces()
